@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
-  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
+  <remote fetch="https://github.com/docdry0001" name="origin"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <project remote="origin" name="android_kernel_common_oneplus_sm8475" path="kernel_platform/common" revision="oneplus/sm8475_b_16.0.0_oneplus_11r"/>
   <project remote="origin" name="android_kernel_oneplus_sm8475" path="kernel_platform/msm-kernel" revision="oneplus/sm8475_b_16.0.0_oneplus_11r">
